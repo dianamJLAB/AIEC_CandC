@@ -21,3 +21,7 @@ contains csv data files used for training, test, and evaluation of the GP
 ### D-ml-CDC directory
 * GCF_GPR_BalancedPressureTests.ipynb: notebook demonstrating training and evaluating the sklearn GP model
 * create_sklearn_gpr.py: sklearn GP class used to create and train a GP model
+
+### utilities / CDC_control_ai / cosmics
+* cdc_loadmodel.py: used in cosmics run to load the sklearn GP model - uses files in the d_cdc_modelneeds directory
+* cdc_runai.py: used in the cosics run to predict used the loaded GP model
