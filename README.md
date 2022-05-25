@@ -17,3 +17,7 @@ contains csv data files used for training, test, and evaluation of the GP
 * preds_sklearnGPR_Trained20202021.csv: features, targets, and predictions for 2020, 2021 data
 * preds_withstdv.csv: features, targets, and predictions for range of pressure and current with temp set to 299.4
 * surface_plot_data_big_2.csv: created features for range of pressures, temp and currents to use for model evaluation.
+
+### D-ml-CDC directory
+* GCF_GPR_BalancedPressureTests.ipynb: notebook demonstrating training and evaluating the sklearn GP model
+* create_sklearn_gpr.py: sklearn GP class used to create and train a GP model
