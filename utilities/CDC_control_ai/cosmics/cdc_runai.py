@@ -126,5 +126,7 @@ def predict_gcf(
     
     if len(stdv) == 1:
         stdv = stdv[0][0]
-        
+    
+    # returning predicted gain correction factor (gcf), the standard deviation, and the initial model inputs
+    #   - model_inputs is a dictionary of the inputs and is returned for ease of logging and debugging
     return gcf, stdv, model_inputs
