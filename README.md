@@ -24,4 +24,4 @@ contains csv data files used for training, test, and evaluation of the GP
 
 ### utilities / CDC_control_ai / cosmics
 * cdc_loadmodel.py: used in cosmics run to load the sklearn GP model - uses files in the d_cdc_modelneeds directory
-* cdc_runai.py: used in the cosics run to predict used the loaded GP model
+* cdc_runai.py: used in the cosmics run to predict used the loaded GP model
